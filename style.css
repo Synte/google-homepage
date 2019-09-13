@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+header {
+    padding: 0.75em;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+main {
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+form input {
+    margin: 0 5px;
+    padding: 5px;
+}
