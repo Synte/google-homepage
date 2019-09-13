@@ -24,9 +24,32 @@ main {
     clear: both;
     padding-top: 50px;
     padding-bottom: 10px;
+    text-align: center;
+}
+
+main div {
+    padding-bottom: 20px;
 }
 
 form input {
     margin: 0 5px;
     padding: 5px;
+}
+
+#search-bar {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footers {
+    background-color: gainsboro;
+    border: 1px solid gray;
+    padding: 0.25em 0.75em;
+    overflow: auto;
 }
